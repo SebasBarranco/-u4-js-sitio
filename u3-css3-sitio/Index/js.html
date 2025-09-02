@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicios - Noticias Tecnológicas Sebas</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-page="js">
+  <header class="banner">
+    <h1>Noticias Tecnológicas Sebas</h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">
+            <img src="../img/logo_size.jpg" alt="Logo" style="height:30px; vertical-align:middle;">
+          </a>
+        </li>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="articulo1.html">Articulo 1</a></li>
+        <li><a href="articulo2.html">Articulo 2</a></li>
+        <li><a href="articulo3.html">Articulo 3</a></li>
+        <li><a href="acerca.html">Acerca</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="tabla.html">Tabla</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="legal.html">Legal</a></li>
+        <li><a href="js.html" class="activo">Pruebas js</a></li>
+        <li id="reloj"></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main style="padding:20px;">
+    <section>
+    <h2>Bienvenido a Servicios</h2>
+
+    <div id="salida"></div>
+    </section>
+
+    <section>
+    <h2>Funciones sumar() y multiplicar()</h2>
+    <input type="number" id="num1" placeholder="Número 1">
+    <input type="number" id="num2" placeholder="Número 2">
+    
+    <button onclick="sumar()">Sumar</button>
+    <button onclick="multiplicar()">Multiplicar</button>
+    <p id="resultado"></p>
+    </section>
+     
+    <section>
+    <button id="btnVisitas">Contar visita</button>
+    <p>Total visitas: <span id="totalVisitas">0</span></p>
+    </section>
+
+    <section>
+    <h3>Cambia el color de fondo:</h3>
+    <button id="btnRojo">Rojo</button>
+    <button id="btnVerde">Verde</button>
+    <button id="btnAzul">Azul</button>
+    </section>
+    
+    <section>
+        <h3>Notas</h3>
+        <input type="text" id="notaInput" placeholder="Escribe una nota">
+        <button id="agregarNota">Agregar</button>
+        <ul id="listaNotas"></ul>
+    </section>
+    <section>
+        <h2>Evaluar número (Positivo, Negativo o Cero)</h2>
+        <input type="number" id="numeroInput" placeholder="Ingresa un número">
+        <button id="btnEvaluar">Evaluar</button>
+        <p id="resultadoNumero"></p>
+    </section>
+    
+    <section>
+        <h2>Obtener día de la semana</h2>
+        <input type="number" id="diaInput" placeholder="Número de día (0-6)">
+        <button id="btnDia">Mostrar día</button>
+        <p id="resultadoDia"></p>
+    </section>
+    
+    <section>
+        <h2>Formatear Moneda</h2>
+        <input type="number" id="montoInput" placeholder="Ingresa un monto">
+        <button id="btnMoneda">Formatear</button>
+        <p id="resultadoMoneda"></p>
+    </section>
+
+    
+
+  </main>
+
+  <footer>
+    <p>2025 TechNews. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="../js/app.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - Noticias Tecnológicas Sebas</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .blog-container { max-width: 1100px; margin: 120px auto 20px; padding: 20px; display: grid; gap: 20px; }
+    .entrada { position: relative; background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 15px; transition: transform 0.3s ease; }
+    .entrada:hover { transform: translateY(-3px); }
+    .badge { position: absolute; top: -10px; right: -10px; background: red; color: #fff; padding: 5px 10px; border-radius: 50%; }
+    .entrada img { width: 100%; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <header class="banner">
+    <h1>Noticias Tecnológicas Sebas</h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">
+            <img src="../img/logo_size.jpg" alt="Logo" style="height:30px; vertical-align:middle;">
+          </a>
+        </li>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="articulo1.html">Articulo 1</a></li>
+        <li><a href="articulo2.html">Articulo 2</a></li>
+        <li><a href="articulo3.html">Articulo 3</a></li>
+        <li><a href="acerca.html">Acerca</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="blog.html" class="activo">Blog</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="tabla.html">Tabla</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="legal.html">Legal</a></li>
+        <li><a href="js.html">Pruebas js</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro">
+      <h2>Últimas Entradas del Blog</h2>
+      <p class="hex">Mantente actualizado con las noticias más recientes de tecnología.</p>
+      <p class="rgb">Artículos, análisis y comparativas de dispositivos y software.</p>
+      <p class="hsl">Opiniones y consejos prácticos para todos los entusiastas tecnológicos.</p>
+    </section>
+
+    <section class="blog-container">
+      <article class="entrada">
+        <span class="badge">Nuevo</span>
+        <img src="../img/iaimg.png" alt="Inteligencia Artificial">
+        <h3>Impacto de la Inteligencia Artificial en 2025</h3>
+        <p>Exploramos cómo la IA está transformando la industria tecnológica y la vida diaria de las personas.</p>
+      </article>
+
+      <article class="entrada">
+        <span class="badge">Nuevo</span>
+        <img src="../img/5g.jpg" alt="Redes 5G">
+        <h3>Redes 5G: Revolución en Conectividad</h3>
+        <p>Las redes 5G llegan a más países y mejoran la velocidad, latencia y confiabilidad de la conectividad global.</p>
+      </article>
+
+      <article class="entrada">
+        <span class="badge">Nuevo</span>
+        <img src="../img/raimagen.webp" alt="Realidad Aumentada">
+        <h3>Realidad Aumentada en Educación y Entretenimiento</h3>
+        <p>La RA se integra en aplicaciones educativas y juegos, cambiando la manera en que aprendemos y nos divertimos.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>2025 TechNews. Todos los derechos reservados.</p>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
